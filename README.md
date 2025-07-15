@@ -1,23 +1,23 @@
 A hands-on prototype demonstrating Agentic AI using Google’s Agent Development Kit (ADK), simulating how autonomous agents fetch contacts and send notifications via Slack and Email — inspired by enterprise workflows.
 Setup Instructions
 Uses UV, a fast modern Python package manager.
-# 1. Install UV globally
+
+1. Install UV globally
 pip install uv
 
-# 2. Initialize the project
+2. Initialize the project
 uv init REMINDER_AGENT
 cd REMINDER_AGENT
 
-# 3. Open in VS Code
-code .
+3. Open in VS Code code .
 
-# 4. Create virtual environment
+4. Create virtual environment
 uv venv
 
-# 5. Activate (Windows)
+5. Activate (Windows)
 .\.venv\Scripts\activate
 
-# 6. Install Google ADK
+6. Install Google ADK
 uv add google-adk
 
 API Key Setup
